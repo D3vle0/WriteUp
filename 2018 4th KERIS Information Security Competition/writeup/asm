@@ -1,0 +1,41 @@
+gdb-peda$ disas main
+Dump of assembler code for function main:
+   0x0000000000400686 <+0>:	push   rbp
+   0x0000000000400687 <+1>:	mov    rbp,rsp
+   0x000000000040068a <+4>:	sub    rsp,0x10
+   0x000000000040068e <+8>:	mov    rax,QWORD PTR fs:0x28
+   0x0000000000400697 <+17>:	mov    QWORD PTR [rbp-0x8],rax
+   0x000000000040069b <+21>:	xor    eax,eax
+   0x000000000040069d <+23>:	mov    edi,0x400784
+   0x00000000004006a2 <+28>:	call   0x400520 <puts@plt>
+   0x00000000004006a7 <+33>:	lea    rax,[rbp-0xc]
+   0x00000000004006ab <+37>:	mov    rsi,rax
+   0x00000000004006ae <+40>:	mov    edi,0x400797
+   0x00000000004006b3 <+45>:	mov    eax,0x0
+   0x00000000004006b8 <+50>:	call   0x400560 <__isoc99_scanf@plt>
+   0x00000000004006bd <+55>:	mov    eax,DWORD PTR [rbp-0xc]
+   0x00000000004006c0 <+58>:	cmp    eax,0x1c05523
+   0x00000000004006c5 <+63>:	jne    0x4006db <main+85>
+   0x00000000004006c7 <+65>:	mov    edi,0x40079a
+   0x00000000004006cc <+70>:	call   0x400540 <system@plt>
+   0x00000000004006d1 <+75>:	mov    edi,0x0
+   0x00000000004006d6 <+80>:	call   0x400570 <exit@plt>
+   0x00000000004006db <+85>:	mov    edi,0x4007a3
+   0x00000000004006e0 <+90>:	call   0x400520 <puts@plt>
+   0x00000000004006e5 <+95>:	mov    eax,0x0
+   0x00000000004006ea <+100>:	mov    rdx,QWORD PTR [rbp-0x8]
+   0x00000000004006ee <+104>:	xor    rdx,QWORD PTR fs:0x28
+   0x00000000004006f7 <+113>:	je     0x4006fe <main+120>
+   0x00000000004006f9 <+115>:	call   0x400530 <__stack_chk_fail@plt>
+   0x00000000004006fe <+120>:	leave  
+   0x00000000004006ff <+121>:	ret    
+End of assembler dump.
+gdb-peda$ x/s 0x400784
+0x400784:	"Type your password"
+gdb-peda$ x/s 0x400797
+0x400797:	"%d"
+gdb-peda$ x/s 0x40079a
+0x40079a:	"cat flag"
+gdb-peda$ x/s 0x4007a3
+0x4007a3:	"Wrong..."
+gdb-peda$
