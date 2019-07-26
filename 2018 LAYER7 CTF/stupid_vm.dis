@@ -1,0 +1,49 @@
+// fn08048750
+// Return size: 0
+void fn08048750()
+fn08048750_entry:
+	// succ:  l08048750
+l08048750:
+	esp = fp
+	call Mem0[0x0804D03C:word32] (retsize: 4;)
+	return
+	// succ:  fn08048750_exit
+fn08048750_exit:
+
+
+// fn080487E0
+// Return size: 0
+void fn080487E0()
+fn080487E0_entry:
+	// succ:  l080487E0
+l080487E0:
+	esp = fp
+	ebp = ebp ^ ebp
+	SZO = cond(ebp)
+	C = false
+	esi = Mem0[esp:word32]
+	esp = esp + 0x00000004
+	ecx = esp
+	__align(esp)
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = eax
+	v9 = esp
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = v9
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = edx
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = 0x0804A9C0
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = 0x0804A960
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = ecx
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = esi
+	esp = esp - 0x00000004
+	Mem0[esp:word32] = 0x08049924
+	call fn08048750 (retsize: 4;)
+	__hlt()
+fn080487E0_exit:
+
+
