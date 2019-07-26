@@ -1,7 +1,7 @@
 # DIMI CTF 본선
 2019.07.25 에 디미고에서 진행된 DIMI CTF 본선 Writeup 입니다.  
 
-<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20DIMI%20CTF/%EB%B3%B8%EC%84%A0/img/%EC%88%9C%EC%9C%84.PNG" width="500px">  
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20DIMI%20CTF/%EB%B3%B8%EC%84%A0/img/%EC%88%9C%EC%9C%84.PNG" width="700px">  
 
 11위 (동상)
 
