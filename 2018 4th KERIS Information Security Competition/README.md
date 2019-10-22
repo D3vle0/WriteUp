@@ -57,7 +57,7 @@ OR 1=1 --'
 alert() 로 flag 값이 나온다.
 ### flag{I_4m_k1ng_0f_tH2_w0rlD!}
 ---
-##Web 2
+## Web 2
 
 ![1.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%9B%B92/1.PNG)
 
