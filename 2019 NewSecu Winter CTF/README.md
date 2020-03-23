@@ -188,4 +188,3 @@ print(a)
 ```
 ![13.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/13.PNG)
 ### FLAG{S@m_Gy30p_S@l_M30k_G0_Sip_D@a}
-<u><del>삼겹살 먹고싶다</del></u>
