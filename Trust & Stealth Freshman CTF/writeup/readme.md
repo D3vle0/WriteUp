@@ -33,7 +33,7 @@ qr코드를 인증하면 유튜브 영상이 나오는데, 설명란에 플래�
 
 ## QRCODE_2 (150)
 
-<img src="./img/QRCODE_2.png" width="200px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/QRCODE_2.png" width="200px">
 
 위치찾기 심볼을 빈 공간에 붙여넣기 하면 인증된다.
 
@@ -43,13 +43,13 @@ qr코드를 인증하면 유튜브 영상이 나오는데, 설명란에 플래�
 
 여러개의 QR code 이미지를 합치면 된다.
 
-<img src="./img/qrcode3 해답.PNG" width="200px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/qrcode3%20%ED%95%B4%EB%8B%B5.PNG" width="200px">
 
 > `FLAG{H@w_U_S2t_Tr@nsp@r2ncy?!?!}`
 
 ## QRCODE_4 (150)
 
-<img src="./img/QRCODE_4.PNG" width="200px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/QRCODE_4.png" width="200px">
 
 qrcode 를 찍으면 hint : stegano 라는 문자열이 나온다.
 이미지의 hex 값을 보면 플래그가 있다.
@@ -62,27 +62,27 @@ qrcode 를 찍으면 hint : stegano 라는 문자열이 나온다.
 슬퍼하지마~ nono~ 열심히 하는 사진을 별 gram~
 ```
 
-<img src="./img/top.png" width="200px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/top.png" width="200px">
 
 
-<img src="./img/left.png" width="200px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/left.png" width="200px">
 
 문제에 힌트가 있는데, 이는 nonogram 문제이다.  
 http://a.teall.info/nonogram/ 에서 풀 수 있다.  
 
 처음에 qrcode 인증이 안되길래 사이트의 nonogram의 회색 부분을 검정색으로 바꿨더니 인증이 되었다.
 
-<img src="./img/nonogram.PNG" width="200px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/nonogram.png" width="200px">
 
 > `FLAG{n0nOGram}`
 
 ## 플래그 뿌리는 문제 (100)
 
-<img src="./img/플래그 뿌리는 문제.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/%ED%94%8C%EB%9E%98%EA%B7%B8%20%EB%BF%8C%EB%A6%AC%EB%8A%94%20%EB%AC%B8%EC%A0%9C.PNG" width="450px">
 
 소스코드에 플래그가 안보이도록 가려져 있는 코드가 있다.
 
-<img src="./img/플래그 뿌리는 문제2.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/%ED%94%8C%EB%9E%98%EA%B7%B8%20%EB%BF%8C%EB%A6%AC%EB%8A%94%20%EB%AC%B8%EC%A0%9C2.PNG" width="450px">
 
 > `FLAG{hidden_Flag^^}`
 
@@ -101,7 +101,7 @@ for i in range(1, 301):
 print p.recvuntil('}')
 ```
 
-<img src="./img/math.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/math.png" width="450px">
 
 > `FLAG{W31C0m3_SmART_fr3sHmAN!_:)}`
 
@@ -114,7 +114,7 @@ Stegsolve로 열면 플래그를 확인 가능하다.
 java -jar Stegsolve.jar
 ```
 
-<img src="./img/hope.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/hope.PNG" width="450px">
 
 > `FLAG{H0p3_1s_ev3rywhere!}`
 
@@ -122,9 +122,9 @@ java -jar Stegsolve.jar
 
 ppt 파일을 주는데 6슬라이드에 있는 사진을 치우면 플래그가 숨겨져있다.
 
-<img src="./img/ppt1.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/ppt1.PNG" width="450px">
 
-<img src="./img/ppt2.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/ppt2.PNG" width="450px">
 
 > `FLAG{0h_n0..My_f1le_has_been_le4ked..}`
 
@@ -156,17 +156,17 @@ nc dets.kro.kr 1234
 __import__('os').system('ls')
 ```
 
-<img src="./img/echo1.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/echo1.png" width="450px">
 
 해당 경로에 flag 파일을 발견하였다. cat flag 로 플래그 내용을 읽어보자.
 
-<img src="./img/echo2.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/echo2.png" width="450px">
 
 > `FLAG{$1mpl3_python_3sc4pe}`
 
 ## Indirect Dimigo Life (150)
 
-<img src="./img/dimigo.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/dimigo.PNG" width="450px">
 
 돈을 음수만큼 빌려서 돈을 불어나게 한다.
 
@@ -279,7 +279,7 @@ UAPV{R0BEA1R4I3S_SC4}
 문제 제목이 힌트인데, 이는 wireshark 를 뜻한다.  
 패킷 캡쳐를 시작하고 socket.exe 를 실행한 다음 follow tcp stream 한다.
 
-<img src="./img/shark.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/shark.PNG" width="450px">
 
 플래그 format 이 잘못되어 FLAG{} 로 고친다.
 
@@ -289,7 +289,7 @@ UAPV{R0BEA1R4I3S_SC4}
 
 ## 트러스트 최고 (100)
 
-<img src="./img/trust.png" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/trust.png" width="450px">
 
 이미지를 hex 값으로 보면 맨 아래에 플래그가 있다.
 
@@ -299,20 +299,20 @@ UAPV{R0BEA1R4I3S_SC4}
 
 문서 안에서 플래그를 찾아보라고 한다.
 
-<img src="./img/word1.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/word1.PNG" width="450px">
 
 스크롤을 쭉 내리다보니...
 
-<img src="./img/word2.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/word2.PNG" width="450px">
 
 **가짜 플래그** 였다.
 
-<img src="./img/word3.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/word3.PNG" width="450px">
 
-ㅋㅋㅋㅋㅋ  
+ㅋㅋㅋㅋㅋ 
 진짜 플래그를 찾기 위해 docx 파일을 압축하고 다시 풀었다.  
 
-<img src="./img/word4.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/word4.PNG" width="450px">
 
 ./docProps/ctf.xml 에 플래그가 숨어있었다.
 > `FLAG{0h!!!_y0u_f1nd_1t!!!!!!!!}`
@@ -321,7 +321,7 @@ UAPV{R0BEA1R4I3S_SC4}
 
 broken_file.txt 를 주는데 file header 가 png 여서 확장자를 png로 바꾸고 실행했더니
 
-<img src="./img/broken1.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/broken1.png" width="450px">
 
 해당 주소로 갔더니 flag.png 파일을 주는데, 열 수 없다.  
 flag.png 의 file header 가 FF FB 로 시작하길래 확장자를 mp3로 바꾸고 열어보았다.  
@@ -359,7 +359,7 @@ QPSKVJALCKW이란 사람이 치킨쿠폰을 훔쳐갔어...
 한 유저가 검색되었고, QPSKVJALCKW가 팔로우하는 단 한 사람의 github 에 들어가보니 자기 소개에 블로그 링크가 있었고 그곳에는 페이스북 바로가기 버튼이 있었다.  
 페이스북 자기소개에 전화번호가 있어 문제와 같이 '관련된 정보좀 주세요' 라고 보내니 첫번째 플래그 조각을 주었다.
 
-<img src="./img/event2.PNG" width="400px">  
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/event22.PNG" width="400px">  
 
 첫번째 플래그 조각 : `FLAG{h3y`
 
@@ -394,12 +394,12 @@ QPSKVJALCKW는 자기가 평소에 유튜브를 즐겨봤는데
 
 위의 index.html 파일에서 유튜브 링크로 들어갔더니 QPSKVJALCKW 라는 계정으로 댓글이 쓰여있었다.
 
-<img src="./img/event1.PNG" width="400px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/event1.PNG" width="400px">
 
 트위터에 들어가서 QPSKVJALCKW 라는 계정이 있는지 확인해보았다.
 
-<img src="./img/event3.PNG" width="400px">
-<img src="./img/event4.PNG" width="400px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/event3.PNG" width="400px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/event4.PNG" width="400px">
 
 두번째 플래그 조각: `_d0_you`
 
@@ -455,7 +455,7 @@ print("".join(map(str, xor)))
 트위터에서 QPSKVJALCKW 는 구글 드라이브에 쿠폰을 저장했다는 게시물을 올렸다. 그럼 QPSKVJALCKW.@gmail.com 으로 로그인을 하자.  
 조금 전 계산을 통해 나온 문자열인 `newdimigo1234` 가 비밀번호 인듯 하다.
 
-<img src="./img/eventflag.PNG" width="450px">
+<img src="https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/eventflag.png" width="450px">
 
 구글 드라이브에 들어가니 '교환권과 flag.png' 파일을 확인할 수 있었다.  
 네번째 플래그 조각: `ch1ck3n????` (문제 오류로 인해 물음표가 하나 더 붙는다고 함)
