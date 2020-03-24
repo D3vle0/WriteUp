@@ -25,7 +25,7 @@
 
 ## QRCODE_1 (100)
 
-![qrcode_1](./img/QRCODE_1.png)
+![qrcode_1](https://raw.githubusercontent.com/D3vle0/WriteUp/master/Trust%20%26%20Stealth%20Freshman%20CTF/writeup/img/QRCODE_1.png)
 
 qr코드를 인증하면 유튜브 영상이 나오는데, 설명란에 플래그가 있다.
 
