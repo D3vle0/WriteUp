@@ -43,7 +43,7 @@ key=57
 `derp-station-300`
 
 ## Why are they even in that order in the fist place? (10)
-4:5:18:16:12:15:14:7:5:19:20:3:15:13:2:15:5:22:5:18
+4:5:18:16:12:15:14:7:5:19:20:3:15:13:2:15:5:22:5:18  
 It's alphabet number (a=1,b=2,c=3 ...)  
 `DERPLONGESTCOMBOEVER`
 
