@@ -8,6 +8,9 @@ just simply open the binary file
 
 `covid{freeFlagLookatMe}`
 
+## Arch (5)
+`x86`
+
 ## Do you feel me? (10)
 `⠙⠑⠗⠏{⠊⠓⠁⠧⠑⠕⠗⠊⠛⠊⠝⠎⠊⠝⠞⠓⠑⠋⠗⠑⠝⠉⠓⠁⠗⠍⠽⠂⠦⠂⠔}`  
 I could guess it is a braille according to the title.  
