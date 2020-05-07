@@ -52,13 +52,13 @@ There's flag.txt file in http://10.0.84.15
 
 ---
 
-I solved these probs after the ctf ended!  
+I solved these probs after the ctf ended!:  
 
 ## Something Derpy
 https://www.randori.com  
-When you view-source here, `<a href="/bart"><img src="/wp-content/themes/randori/assets/images/bart.png" alt="Bart"></a> <!-- something is derpy with this image, will fix later -->`
+When you view-source here, `<a href="/bart"><img src="/wp-content/themes/randori/assets/images/bart.png" alt="Bart"></a> <!-- something is derpy with this image, will fix later -->`  
 It says this is an DERPY image, so open with HxD.  
-<img src="./img/2.PNG">
+<img src="./img/2.PNG">  
 It contains base64 encoded ciphertext below IEND.  
 `derp{DontPetTheTigers}`
 
