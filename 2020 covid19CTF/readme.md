@@ -32,8 +32,8 @@ base32 decode
 `derp{ThisIsDefEncryption!}`
 
 ## et tu brute (10)
-qrec{NaByqvrOhgNTbbqvr}
-Caesar Cipher (key=13)
+qrec{NaByqvrOhgNTbbqvr}  
+Caesar Cipher (key=13)  
 `derp{AnOldieButAGoodie}`
 
 ## Non-standard NetBIOS Name (10)
