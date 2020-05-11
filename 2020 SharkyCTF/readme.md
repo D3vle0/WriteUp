@@ -16,7 +16,7 @@ Click this prob and press ESC to stop loading.
 <img src="./img/1.PNG">  
 `shkCTF{y0u_h4v3_b33n_tr0ll3d_by_2phi_5298158640e3a8d4e7e7d51}`
 
-## [STEGANOGRAPHY] basic LSB - 50
+## [STEGANOGRAPHY] - basic LSB (50)
 I couldn't see last few bytes of flag through zsteg, so I used stegsolve.  
 <img src="./img/2.png">  
 <img src="./img/3.png">  
@@ -24,5 +24,5 @@ I couldn't see last few bytes of flag through zsteg, so I used stegsolve.
 
 `shkCTF{Y0u_foUnD_m3_thr0ugH_LSB_6a5e99dfacf793e27a}}`
 
-## [SURVEY] Survey ! - 10
+## [SURVEY] - Survey ! (10)
 `shkCTF{Thanks_for_participating!}`
