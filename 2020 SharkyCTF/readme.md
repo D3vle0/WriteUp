@@ -22,7 +22,7 @@ I couldn't see last few bytes of flag through zsteg, so I used stegsolve.
 <img src="./img/3.png">  
 <img src="./img/4.PNG">  
 
-`shkCTF{Y0u_foUnD_m3_thr0ugH_LSB_6a5e99dfacf793e27a}}`
+`shkCTF{Y0u_foUnD_m3_thr0ugH_LSB_6a5e99dfacf793e27a}`
 
 ## [SURVEY] - Survey ! (10)
 `shkCTF{Thanks_for_participating!}`
