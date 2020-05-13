@@ -3,7 +3,7 @@
 Team: 31337_h4ck3r  
 Devleo (Captain), CraftyDragon678, n1net4il, NAB33N  
   
-<a href="https://github.com/CraftyDragon678/ctf-writeups/tree/master/2020/sharkyctf">CraftyDragon678's Writeup</a>  
+<a href="https://github.com/CraftyDragon678/ctf-writeups/blob/master/2020/sharkyctf/README.md">CraftyDragon678's Writeup</a>  
 <s>n1net4il's WriteUp</s>
 
 ---
