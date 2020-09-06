@@ -130,7 +130,7 @@ ida 로 까면 위와 같이 나오는데 인덱스 0부터 17까지는 `baba`�
 <img src="./img/warmup3.PNG">
 
 
-<img src="./img/warmup1.PNG">
+<img src="./img/warmup4.PNG">
 
 따라서 플래그는 `L7TR{you_are_nice_i_am_the_real_flag}`
 
