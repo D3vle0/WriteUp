@@ -87,7 +87,7 @@ flag.png 헥사값을 보니 헤더와 청크 일부분이 대소문자가 반�
 69 65 6E 64 -> 49 45 4E 44 (iend -> IEND)
 ```
 
-<img src="./img/hangul10.PNG">
+<img src="./img/hangul10.png">
 
 파일이 정상적으로 열리고 플래그가 나온다.
 
@@ -95,7 +95,7 @@ flag.png 헥사값을 보니 헤더와 청크 일부분이 대소문자가 반�
 
 ### GNP (496)
 
-<img src="./img/gnp1.PNG">  
+<img src="./img/gnp1.png">  
 
 위 이미지가 주어진다.
 
