@@ -141,7 +141,7 @@ fake flag가 인식되는 파일의 height를 늘려주면 된다.
 
 PNG 파일의 0x14~0x17 자리가 height 에 해당한다. 적당히 0x00000110 정도로 늘렸다.
 
-<img src="./img/dl3.PNG">
+<img src="./img/dl3.png">
 
 `h4c(g0t_y0u)`
 
