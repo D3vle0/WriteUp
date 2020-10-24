@@ -130,11 +130,11 @@ tshark -r keyboard.pcap -T fields -e usb.capdata | grep :00:00:00:00:00
 20:21: $
 20:00:
 ```
-첫번째 byte는 키보드 shift, <a href="https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2" target="_blank"> 이곳에 따르면</a> 2번째 byte가 의미하는 것이 각각 할당된 키이다.  
+첫번째 byte는 키보드 shift, <a href="https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2"> 이곳에 따르면</a> 2번째 byte가 의미하는 것이 각각 할당된 키이다.  
 따라서 이 패킷에는 `PW IS WHATHELL!#@$` 이라는 문자열이 입력되었음을 기록한다.  
 문제에서 주어진 `encrypted.docx` 의 암호를 구한 것이다.  
   
-암호를 해제하고 다른 이름으로 저장한 뒤 내부 분석하면 
+암호를 해제하고 다른 이름으로 저장한 뒤 내부 분석하면  
 
 <img src="./img/4.PNG">  
 
