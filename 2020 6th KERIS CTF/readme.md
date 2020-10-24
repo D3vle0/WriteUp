@@ -16,7 +16,7 @@ key = 3
 
 stegsolve green plane 0, 1, 2, 3
 
-<img src="./img/1.PNG">
+<img src="./img/1.PNG" width="400px">
 
 ## FORENSIC
 
