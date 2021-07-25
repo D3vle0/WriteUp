@@ -9,7 +9,7 @@ tags: ["hacking", "CTF"]
 
 교내 ITLAB 중 하나인 WAYLAB에서 1학년 친구들이 준비한 CTF이다.  
 문제 난이도는 쉬운 편이다.  
-Rank: 5th place (2791pts)
+Rank: 5th place (2791pts)  
 
 ![rank](https://cdn.discordapp.com/attachments/802579615268732958/868857637775753307/unknown.png)
 
@@ -79,7 +79,7 @@ hex 값을 보면 png 파일 관련 청크가 있는데 헤더만 손상되어 �
 
 ### 잃어버린 내 안드로이드 롬 파일을 찾아서 [200pts]
 
-압축 풀면 WAYLAB CTF 폴더가 있는데, 그 안에는 apk 파일이 들어있다.
+압축 풀면 WAYLAB CTF 폴더가 있는데, 그 안에는 apk 파일이 들어있다.  
 설치하고 실행하면 플래그가 나온다.
 
 ![for](https://cdn.discordapp.com/attachments/802579615268732958/868390610892107816/Screenshot_2021-07-24-16-13-55-415_com.example.waylabctf.jpg)
@@ -140,13 +140,13 @@ Stegsolve
 
 ![misc](https://cdn.discordapp.com/attachments/802579615268732958/868396806709587998/unknown.png)
 
-응애
-응애
-응애
-응애
-응애
-...
-하는 ppt 파일이 주어진다.
+응애  
+응애  
+응애  
+응애  
+응애  
+...  
+하는 ppt 파일이 주어진다.  
 97 슬라이드에 ball=64라고 적힌 것을 보아 100 슬라이드에 적힌 문자열을 base64 decode 하면 된다.
 
 ![misc](https://cdn.discordapp.com/attachments/802579615268732958/868396855195750400/unknown.png)
@@ -186,6 +186,13 @@ for i in cp:
 `WAYLAB{3a57_53afo0d}`
 
 ## CRYPTO
+
+### AB [100pts]
+
+`ABABABBBABAAAAABABABBAABABAABBAAABAAAAABABAAAABA{ABAAAAABABAAAABA_ABBBABAAAABBAAAA_ABAAAABAAABBAAABABBABBBAABAAAAAAABBBAABAABBBBAAB_ABBBABAAAABBAAAA_AABBABABABBBABAAABBBAABAABBABAABABBABBBAABBAABBB_ABBABAABAABBABAB_ABBAABBBAABBAAAAAABBAAAAABBAABAA}`
+
+처음에 암호문 보고 bacon cipher 인줄 알았는데 페이크였다.  
+A는 0, B는 1로 치환한 후 8글자씩 끊어서 bin to str 하면 된다.
 
 ### one_by_one_forward [150pts]
 
