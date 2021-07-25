@@ -7,8 +7,8 @@ tags: ["hacking", "CTF"]
 
 ## WAYLAB CTF
 
-교내 ITLAB 중 하나인 WAYLAB에서 1학년 친구들이 준비한 CTF이다.
-문제 난이도는 쉬운 편이다.
+교내 ITLAB 중 하나인 WAYLAB에서 1학년 친구들이 준비한 CTF이다.  
+문제 난이도는 쉬운 편이다.  
 Rank: 5th place (2791pts)
 
 ![rank](https://cdn.discordapp.com/attachments/802579615268732958/868857637775753307/unknown.png)
@@ -155,7 +155,7 @@ Stegsolve
 
 ![misc](https://cdn.discordapp.com/attachments/802579615268732958/868397944284512276/unknown.png)
 
-아무것도 없기 때문에 xml 데이터를 까보자.
+아무것도 없기 때문에 xml 데이터를 까보자.  
 `.pptx` 확장자를 `.zip` 으로 바꾸고 압축을 푼 뒤 `ppt/slides/slide50.xml` 을 본다.
 
 ![misc](https://cdn.discordapp.com/attachments/802579615268732958/868398814409670696/unknown.png)
@@ -178,7 +178,7 @@ for i in cp:
 
 ### National anthem [250pts]
 
-애국가 음악 파일이 주어지는데, 맨 마지막 부분에 노이즈가 들어가있다.
+애국가 음악 파일이 주어지는데, 맨 마지막 부분에 노이즈가 들어가있다.  
 소리가 spectrogram 으로 분석해야 하는듯한 노이즈여서 audacity로 열어주었다.
 
 ![misc](https://cdn.discordapp.com/attachments/802579615268732958/868407135011217408/unknown.png)
@@ -207,7 +207,7 @@ encrypted_flag = ''.join(flag_hexArr)
 print(encrypted_flag)
 ```
 
-위의 코드를 실행시켰을때 결과값이 `741594c41427b4833785f346c67305231356d5f336e4330646575d` 라고 한다.
+위의 코드를 실행시켰을때 결과값이 `741594c41427b4833785f346c67305231356d5f336e4330646575d` 라고 한다.  
 역연산 코드를 짜기 귀찮아서 규칙성에 집중을 해보았다.
 
 1. 플래그의 첫 부분은 `WAYLAB{` 일테니 `WAYLAB{aaa}` 라는 문자열을 위의 코드에 넣어보았다.
