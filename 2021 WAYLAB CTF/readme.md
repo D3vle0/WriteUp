@@ -11,7 +11,8 @@ tags: ["hacking", "CTF"]
 문제 난이도는 쉬운 편이다.  
 Rank: 5th place (2791pts)  
 
-![rank](https://cdn.discordapp.com/attachments/802579615268732958/868857637775753307/unknown.png)
+![rank](https://cdn.discordapp.com/attachments/802579615268732958/868877693670797312/unknown.png)
+![rank](https://cdn.discordapp.com/attachments/802579615268732958/868877771907137606/unknown.png)
 
 ## PWN
 
