@@ -4,7 +4,7 @@
 ## Network 1
 [FINDme.pcapng](writeup/네트워크1/FINDme.pcapng) 파일이 주어진다. pcapng 파일은 패킷 캡쳐 파일이므로, Wireshark 로 열어준다.  
 
-![0.PNG](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC1/0.PNG)
+![0.PNG](writeup/네트워크1/0.PNG)
 
 처음에는 1440번 Packet 에 있는 success.txt 파일이 수상해서 분석해보았지만 아무런 결과가 없었다.  
 flag 값 자체가 전송된 패킷이 있는지 FIlter Option 에  
@@ -13,30 +13,29 @@ frame contains flag
 ```
 이렇게 입력을 하니 1470번 단 하나의 Packet 이 검색되었다.
 
-![1.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC1/1.PNG)
+![1.PNG](writeup/네트워크1/1.PNG)
 
-![2.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC1/2.PNG)
+![2.PNG](writeup/네트워크1/2.PNG)
 
 우클릭 > Follow > TCP Stream 으로 들어가면...
 
-![3.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC1/3.PNG)
+![3.PNG](writeup/네트워크1/3.PNG)
 
 플래그를 구할 수 있다.  
 ### flag{N3tw0rk_Ch@llenge_SOlv3d!_Congr@tz!!}   
 ---
 ## Cryptography 1
-[XOR](https://github.com/developleo/keris-writeup/blob/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/XOR) 파일이 주어진다. 텍스트 에디터로 열면   
->$.#%96-&#;b+1b!.-7&;lb1-b/;b$''.+,%b+1b,-6b%--&b'+6*'0l? 
->
+주어진 파일을 텍스트 에디터로 열면
+`$.#%96-&#;b+1b!.-7&;lb1-b/;b$''.+,%b+1b,-6b%--&b'+6*'0l?`
+
 이런 값이 나오는데 문제 힌트에 따르면 flag와 특정 문자 한 개를 XOR 연산한 것이라고 한다. [xor_app](http://blog.naver.com/PostView.nhn?blogId=wwwkasa&logNo=220121139415) 이라는 툴을 사용하면 편하다. 참고로 이 툴을 다운로드 받았을 때 확장자가 .exe_ 로 되어있을 것이다.
 
-![1.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%95%94%ED%98%B8%ED%99%941/1.PNG)
-
+![1.PNG](writeup/암호화1/1.PNG)
 exe로 바꿔서 실행한 뒤 입력란에 xor 된 값을 붙어넣는다.
 
-![2.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%95%94%ED%98%B8%ED%99%941/2.PNG)
+![2.PNG](writeup/암호화1/2.PNG)
 
-![3.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%95%94%ED%98%B8%ED%99%941/3.PNG)
+![3.PNG](writeup/암호화1/3.PNG)
 
 ### flag{today is cloudy. so my feeling is not good either.} 
 ---
