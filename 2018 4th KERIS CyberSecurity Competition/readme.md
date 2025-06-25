@@ -40,11 +40,12 @@ exe로 바꿔서 실행한 뒤 입력란에 xor 된 값을 붙어넣는다.
 ### flag{today is cloudy. so my feeling is not good either.} 
 ---
 ## Web 1
-![1.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%9B%B91/1.PNG)
+
+![1.PNG](writeup/웹1/1.PNG)
 
 문제 설명에 admin으로 접속하라길래 특정 ID/PW 가 있는 줄 알았는데 이내 SQL Injection 이라는 것을 알았다. SQL Injection 이란 악의적인 SQL문을 넣어서 DB를 비정상적으로 조작하는 웹 해킹 기법이다. 
 
-![2.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%9B%B91/2.PNG)
+![2.PNG](writeup/웹1/2.PNG)
 
 로그인 없이 PW를 참으로 만들기 위해 ID 와 PW에
 ```
@@ -52,23 +53,23 @@ OR 1=1 --'
 ```
 을 써주면...
 
-![3.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%9B%B91/3.PNG)
+![3.PNG](writeup/웹1/3.PNG)
 
 alert() 로 flag 값이 나온다.
 ### flag{I_4m_k1ng_0f_tH2_w0rlD!}
 ---
 ## Web 2
 
-![1.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%9B%B92/1.PNG)
+![1.PNG](writeup/웹2/1.PNG)
 
 특정 사진 파일을 조각내서 무작위로 섞어 놓은 페이지이다.  
 처음에는 Burp Suite 로 무작위로 섞이는 함수 (스트립트) 를 중지 시키고 원본의 사진을 불러와야 하는 줄 알았는데 Ctrl + Shift + I 로 개발자 도구를 꺼내서
 
-![2.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%9B%B92/2.PNG)
+![2.PNG](writeup/웹2/2.PNG)
 
 섞일 사진이 있는 위치 (top > 13.124.40.205 > img > th1s_1s_r3al_f14g) 를 찾아가면 플래그를 볼 수 있다.
 
-![3.png](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EC%9B%B92/3.PNG)
+![3.PNG](writeup/웹2/3.PNG)
 
 ### flag{PuzZ13_pUzZ13_f0R_fuN_!@#$}
 ---
