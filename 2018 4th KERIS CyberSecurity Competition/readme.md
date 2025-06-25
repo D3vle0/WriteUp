@@ -2,7 +2,7 @@
 # KERIS 제 4회 정보보안 경진대회 Write-up
 ---
 ## Network 1
-[FINDme.pcapng](https://github.com/developleo/keris-writeup/blob/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC1/FINDme.pcapng) 파일이 주어진다. pcapng 파일은 패킷 캡쳐 파일이므로, Wireshark 로 열어준다.  
+[FINDme.pcapng](writeup/네트워크1/FINDme.pcapng) 파일이 주어진다. pcapng 파일은 패킷 캡쳐 파일이므로, Wireshark 로 열어준다.  
 
 ![0.PNG](https://raw.githubusercontent.com/developleo/keris-writeup/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/writeup/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC1/0.PNG)
 
