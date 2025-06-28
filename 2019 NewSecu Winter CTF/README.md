@@ -2,22 +2,32 @@
 ---
 
 ## mic_check
-![1.PNG](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/1.PNG)  
+
+![1.PNG](photo/1.PNG)
+
 ### flag{test}
 ---
 ## 선물문제 (저놈 잡아라)
-![3.PNG](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/3.PNG)  
+
+![3.PNG](photo/3.PNG)
 대회 중간에 쉬어가는 문제였는데, 아래와 같은 이미지 파일을 준다.  
-![IMG_4420.jpg](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/IMG_4420.jpg)  
+
+![IMG_4420.jpg](photo/IMG_4420.jpg)
 강남대로에 있는 알라딘 서점을 구글 지도에서 검색했더니  
-![5.PNG](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/5.PNG)  
+
+![5.PNG](photo/5.PNG)
 당시 공사중이었는지 건물 이름이 없다. 같은 위치를 네이버 지도에서 열면 해결되고, 버스는 남양주에서 강남역으로 가는 버스를 검색하면 번호를 알 수 있다.  
-![6.PNG](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/6.PNG)  
+
+![6.PNG](photo/6.PNG)  
+
 ### flag{SPAO_1700}
 ---
 ## goback
-![4.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/4.PNG)   
-![7.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/7.PNG)  
+
+![4.PNG](photo/4.PNG)  
+
+![7.PNG](photo/7.PNG)  
+
 문제에 주어진 링크로 파일을 받으면 폴더 제외 3개의 파일이 있다. 그 중 확장자가 .txt 인 문서가 있길래 열어보았더니  
 ```
 친구에게 사랑에 빠진 누군가가 있었다.
@@ -158,16 +168,28 @@ hH?"純Z벇?!벮?ば△?T틚xqU냂쪳旴o2꺣??	q톄?B?By)?l련?? 멷P
 _?Fy 룧阮녽펽/?餃臾L冬?먫u괌m???z喜??\顧8?K舅닏$?w??뚾캍Q훅뒝据?g??碁 效腺9?Z ??p+?限~I碇浚뼁+왷挾t擢?T{	                                                                                                                                                                                                       
 ```  
 인코딩이 안돼 깨져버린 파일이었다. 여기에 'HWP Document File' 이라는 문자열이 있어서 한글 파일로 열어서 내용을 확인할 수 있었다.  
-![8.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/8.PNG)  
+
+![8.PNG](photo/8.PNG)  
+
 문서 맨 끝에 있는 사각형 박스가 수상하여 마우스 오른쪽 클릭 > 그림 파일로 저장을 했고 해당 비트맵 파일 (.bmp) 을 HxD 로 헥사 값을 보았지만..  
-![9.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/9.PNG)  
+
+![9.PNG](photo/9.PNG)  
+
 아무것도 없었다.  
 한글 창에서 이것저것 만지다가 해결법을 찾았는데, 그림 탭에 있는 바꾸기/저장 기능을 사용하면 된다.  
-![10.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/10.PNG)  
+ 
+![10.PNG](photo/10.PNG)  
+
+
 이제 확장자는 .png 로 저장이 되며 이미지는 아래와 같다.  
-![11.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/11.PNG)  
+
+![11.png](photo/11.png)  
+
 사진 아랫부분에 검은색 픽셀 여러개가 보여 헥사값을 수정해 이미지를 위아래로 늘려볼 생각이었지만 헥사값 안에 플래그가 있었다.  
-![12.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/12.PNG)  
+
+![12.PNG](photo/12.PNG)  
+
+
 플래그 위의 내용은 남자가 하고싶은 숨겨진 얘기인듯 하다.  
 ### FLAG{He_was_a_car...}
 ---
@@ -186,5 +208,7 @@ a=''.join([chr(int(i)) for i in '70 76 65 71 123 83 64 109 95 71 121 51 48 112 9
 
 print(a)
 ```
-![13.png](https://raw.githubusercontent.com/D3vle0/WriteUp/master/2019%20NewSecu%20Winter%20CTF/photo/13.PNG)
+
+![13.PNG](photo/13.PNG)  
+
 ### FLAG{S@m_Gy30p_S@l_M30k_G0_Sip_D@a}
